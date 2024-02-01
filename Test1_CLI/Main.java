@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { //실행 메소드
 		
 		try {
 			LoginInfo loginfo = new LoginInfo();
@@ -25,7 +25,7 @@ public class Main {
 			boolean exit = false;
 
 			while (!exit) {
-				ms.mainMenu();
+				ms.mainMenu(); //메뉴 안내
 				String menuNum = sc.nextLine();
 
 				switch (menuNum) {

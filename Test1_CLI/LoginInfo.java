@@ -1,10 +1,11 @@
 package Test1_CLI;
 
-public class LoginInfo {
+public class LoginInfo { //MySQL 데이터베이스에 연결하기 위한 정보들
 	private String url = "jdbc:mysql://localhost:3306/firm";
 	private String id = "root";
 	private String pass = "mysql";
 
+	
 	public String getUrl() {
 		return url;
 	}
