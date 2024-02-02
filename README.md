@@ -1,4 +1,4 @@
-# Java-MySQL-Project-Firm_dataManagement
+# Java-MySQL-Project (Firm_dataManagement)
 MySQL + Java JDBC를 이용한 사원정보 관리 프로그램 개발
 
 ## 🖥️ 프로젝트 소개
