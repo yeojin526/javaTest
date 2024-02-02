@@ -84,6 +84,7 @@ public class Select { //4. SELECT 쿼리 (전체 조회 & 사원별 조회)
 				
 				//결과 출력
 				System.out.println(str);
+				sc.nextLine();
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
